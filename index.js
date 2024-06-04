@@ -48,26 +48,26 @@ async function run() {
     const shoesCollection = productDB.collection("shoesCollection");
     const userCollection = userDB.collection("userCollection");
     // product
-    app.post("/shoes", verifyToken, async (req, res) => {
+    app.post("/cubes", verifyToken, async (req, res) => {
       const shoesData = req.body;
       const result = await shoesCollection.insertOne(shoesData);
       res.send(result);
     });
 
-    app.get("/shoes", async (req, res) => {
+    app.get("/cubes", async (req, res) => {
       const shoesData = shoesCollection.find();
       const result = await shoesData.toArray();
       res.send(result);
     });
 
-    app.get("/shoes/:id", async (req, res) => {
+    app.get("/cubes/:id", async (req, res) => {
       const id = req.params.id;
       const shoesData = await shoesCollection.findOne({
         _id: new ObjectId(id),
       });
       res.send(shoesData);
     });
-    app.patch("/shoes/:id", verifyToken, async (req, res) => {
+    app.patch("/cubes/:id", verifyToken, async (req, res) => {
       const id = req.params.id;
       const updatedData = req.body;
       const result = await shoesCollection.updateOne(
@@ -76,7 +76,7 @@ async function run() {
       );
       res.send(result);
     });
-    app.delete("/shoes/:id", verifyToken, async (req, res) => {
+    app.delete("/cubes/:id", verifyToken, async (req, res) => {
       const id = req.params.id;
       const result = await shoesCollection.deleteOne({ _id: new ObjectId(id) });
       res.send(result);
