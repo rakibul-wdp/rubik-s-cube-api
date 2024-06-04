@@ -89,7 +89,7 @@ async function run() {
       const isUserExist = await userCollection.findOne({ email: user?.email });
       if (isUserExist?._id) {
         return res.send({
-          statu: "success",
+          status: "success",
           message: "Login success",
           token,
         });
