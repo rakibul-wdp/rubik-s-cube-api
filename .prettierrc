@@ -1,0 +1,11 @@
+{
+  "tailwindAttributes": [
+    "class",
+    "className",
+    "cnObj",
+    "myClass",
+    "customClass"
+  ],
+  "tailwindFunctions": ["clsx", "tw", "cva"],
+  "plugins": ["prettier-plugin-tailwindcss"]
+}

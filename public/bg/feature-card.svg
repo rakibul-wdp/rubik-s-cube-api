@@ -1,0 +1,44 @@
+<svg width="420" height="366" viewBox="0 0 420 366" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.8">
+<rect width="420" height="366" rx="20" fill="url(#paint0_linear_793_2970)"/>
+<mask id="mask0_793_2970" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="420" height="366">
+<rect width="420" height="366" rx="20" fill="url(#paint1_linear_793_2970)"/>
+</mask>
+<g mask="url(#mask0_793_2970)">
+<g filter="url(#filter0_f_793_2970)">
+<ellipse cx="323.969" cy="181.619" rx="29.75" ry="46.9585" fill="#FFDF74"/>
+</g>
+<g filter="url(#filter1_f_793_2970)">
+<ellipse cx="340.375" cy="6.21533" rx="29.75" ry="46.9585" fill="#71C4FF"/>
+</g>
+<g filter="url(#filter2_f_793_2970)">
+<ellipse cx="66.7188" cy="25.2067" rx="29.75" ry="46.9585" fill="#F6FF8A"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_793_2970" x="157.308" y="-2.25079" width="333.322" height="367.739" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="68.4556" result="effect1_foregroundBlur_793_2970"/>
+</filter>
+<filter id="filter1_f_793_2970" x="173.714" y="-177.654" width="333.322" height="367.739" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="68.4556" result="effect1_foregroundBlur_793_2970"/>
+</filter>
+<filter id="filter2_f_793_2970" x="-99.9424" y="-158.663" width="333.322" height="367.739" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="68.4556" result="effect1_foregroundBlur_793_2970"/>
+</filter>
+<linearGradient id="paint0_linear_793_2970" x1="-115.609" y1="185.826" x2="475.249" y2="182.271" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EAFEFF"/>
+<stop offset="1" stop-color="#FFFBF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_793_2970" x1="0" y1="183" x2="420" y2="183" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EAFEFF"/>
+<stop offset="1" stop-color="#FFFBF1"/>
+</linearGradient>
+</defs>
+</svg>
